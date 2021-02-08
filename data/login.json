@@ -1,0 +1,58 @@
+[
+  {
+    "desc": "登录成功",
+    "mobile": "13800000002",
+    "password": "123456",
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "desc": "用户名不存在",
+    "mobile": "13899000012",
+    "password": "123456",
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "密码错误",
+    "mobile": "13800000002",
+    "password": "error",
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "用户名为空",
+    "mobile": "",
+    "password": "123456",
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "密码为空",
+    "mobile": "13800000002",
+    "password": "",
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "缺少用户名参数",
+    "mobile": null,
+    "password": "123456",
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  }
+]
+
+

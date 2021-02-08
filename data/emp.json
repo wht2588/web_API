@@ -1,0 +1,17 @@
+{
+  "test01_add_emp": {
+    "desc": "添加员工",
+    "username": "tom01",
+    "mobile": "11092349005",
+    "work_number": "E001",
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "test02_query_emp": {
+
+  }
+}
+
+
